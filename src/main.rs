@@ -7,7 +7,7 @@ use std::path::{Path, PathBuf};
 use freedesktop_file_parser::{DesktopFile, EntryType, parse};
 use serde::Deserialize;
 
-use crate::entry_handler::DesktopEntries;
+use crate::entry_handler::AppEntry;
 
 mod entry_handler;
 
